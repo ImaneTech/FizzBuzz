@@ -8,6 +8,9 @@ public class FizzBuzz {
         }else if(nbre ==2){
             res="2";
         }
+        else if(nbre ==3){
+            res= "Fizz";
+        }
         return res;
     }
 }

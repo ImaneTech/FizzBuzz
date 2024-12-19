@@ -34,6 +34,10 @@ public class FizzBuzzTest {
         String Actualresult = FizzBuzz.de(2);
         //THEN
         Assertions.assertThat(Actualresult).isEqualTo(expectedresult);
+    }
+    @Test
+    void fizzBuzz_de_3_devrait_retourner_Fizz(){
+          Assertions.fail("echec cycle 3");
 
     }
 
