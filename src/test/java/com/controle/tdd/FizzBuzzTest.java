@@ -47,7 +47,12 @@ public class FizzBuzzTest {
     }
     @Test
     void fizzBuzz_de_4_devrait_retourner_4(){
-          Assertions.fail("echec cycle 4");
-
+        //  Assertions.fail("echec cycle 4");g
+        //GIVEN
+        String expectedresult ="4";
+        //WHEN
+        String Actualresult = FizzBuzz.de(4);
+        //THEN
+        Assertions.assertThat(Actualresult).isEqualTo(expectedresult);
     }
 }
