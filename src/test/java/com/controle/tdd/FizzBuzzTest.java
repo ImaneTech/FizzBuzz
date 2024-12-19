@@ -44,7 +44,5 @@ public class FizzBuzzTest {
         String Actualresult = FizzBuzz.de(3);
         //THEN
         Assertions.assertThat(Actualresult).isEqualTo(expectedresult);
-
     }
-
 }
