@@ -6,6 +6,9 @@ public class FizzBuzz {
         if (nbre % 3 == 0){
             res = "Fizz";
         }
+        else if (nbre % 5 == 0){
+            res = "Buzz";
+        }
         else {
             res = String.valueOf(nbre);
         }
