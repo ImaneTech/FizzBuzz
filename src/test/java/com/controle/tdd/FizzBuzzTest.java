@@ -66,4 +66,5 @@ public class FizzBuzzTest {
         Assertions.assertThat(Actualresult).isEqualTo(expectedresult);
     }
 
+
 }
