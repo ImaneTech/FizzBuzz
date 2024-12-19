@@ -28,6 +28,12 @@ public class FizzBuzzTest {
     @Test
     void fizzBuzz_de_2_devrait_retourner_2(){
        //  Assertions.fail("echec cycle 2");
+        //GIVEN
+        String expectedresult ="2";
+        //WHEN
+        String Actualresult = FizzBuzz.de(2);
+        //THEN
+        Assertions.assertThat(Actualresult).isEqualTo(expectedresult);
 
     }
 
