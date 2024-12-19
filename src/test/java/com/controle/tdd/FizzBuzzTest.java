@@ -75,5 +75,10 @@ public class FizzBuzzTest {
         //THEN
         Assertions.assertThat(Actualresult).isEqualTo(expectedresult);
     }
+    @Test
+    void fizzBuzz_de_20_devrait_retourner_Buzz(){
+          Assertions.fail("echec cycle 7");
+
+    }
 
 }
