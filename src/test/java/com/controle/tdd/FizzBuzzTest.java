@@ -45,4 +45,9 @@ public class FizzBuzzTest {
         //THEN
         Assertions.assertThat(Actualresult).isEqualTo(expectedresult);
     }
+    @Test
+    void fizzBuzz_de_4_devrait_retourner_4(){
+          Assertions.fail("echec cycle 4");
+
+    }
 }
